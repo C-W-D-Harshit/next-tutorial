@@ -11,6 +11,15 @@ export default function Header() {
     setOpen(!open);
   };
 
+  const a = 1;
+  var c = "bca";
+
+  let b = 2;
+  const d = a + b;
+  console.log(d);
+
+  b = 3;
+
   return (
     <>
       <header className="w-full border-b flex justify-between items-center h-16 px-16">
